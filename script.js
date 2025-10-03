@@ -20,16 +20,16 @@ document.addEventListener('DOMContentLoaded', () => {
     yesBtn.addEventListener('click', () => {
         const container = document.querySelector('.container');
         
-        // The direct GIF link for the King The Land GIF
-        const gifSrc = "https://media.tenor.com/Uf7324Lh4qYAAAAe/king-the-land-lee-jun-ho-lim-yoona-2pm-junho-snsd-yoona.gif";
+        // **UPDATED GIF LINK** (The reliable Giphy URL you provided)
+        const gifSrc = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3hwZ3I4NmUxbHRsa2Q0M29jbno1anlyaXhoMDB2ejZ4ajJmN29yOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bYe23tbIFCnNRxTqkb/giphy.gif";
 
         // 1. Replace the entire content of the container with the GIF and message
         container.innerHTML = `
-            <img src="${gifSrc}" alt="King The Land Happy GIF" class="success-image">
+            <img src="${gifSrc}" alt="Success GIF" class="success-image">
             <h1 class="success-text">🎉 My Heart Said YES! I Love You! 🎉</h1>
         `;
 
-        // 2. Hide the No button (optional, but good practice)
+        // 2. Hide the No button
         noBtn.style.display = 'none'; 
         
         // 3. Apply the neon styles to the new elements (inline styling)
